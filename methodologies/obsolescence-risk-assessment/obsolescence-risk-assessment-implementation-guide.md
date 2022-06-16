@@ -2,7 +2,7 @@
 
 By Pablo Bacho
 
-Updated on Mar 20th, 2021.
+Updated on Jun 16th, 2022.
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
 
@@ -15,7 +15,7 @@ I found the work by F.J. Romero outstanding, very realistic and practical. I ada
 **Table of contents**
 
 - [Introduction](#introduction)
-  - [Motive](#motive)
+  - [Subject](#subject)
   - [Scope](#scope)
   - [Methodology](#methodology)
 - [Obsolescence Risk Assessment Report](#obsolescence-risk-assessment-report)
@@ -42,10 +42,10 @@ I found the work by F.J. Romero outstanding, very realistic and practical. I ada
 
 ## Introduction
 
-### Motive
+### Subject
 
 In long-lifecycle projects, obsolescence has become a major problem as it prevents the maintenance of the system. This is the reason why obsolescence management must become an essential part of the product
-support activities. In order to manage obsolescence effectively, it is essential to perform an obsolescence risk assessment for the Bill of Materials.
+support activities. In order to manage obsolescence effectively, it is essential to perform an obsolescence risk assessment of the Bill of Materials.
 
 ### Scope
 
@@ -53,9 +53,7 @@ The key factors that have to be analysed in the obsolescence risk assessment pro
 
 ### Methodology
 
-This document is an implementation guide to create an Obsolescence Risk Assessment Report. The report contains all the information gathered during the assessment, obsolescence risk levels as well as specific actions to be taken to mitigate potential problems. The report is a standardized method of collecting, assessing and recording obsolescence risk information, serving as a support document for the project and the team members involved, and within the organization itself.
-
-It is an adaptation based in a research paper by F.J. Romero Rojo (cited above), based on a benchmarking study carried out across multiple organizations.
+This document is an implementation guide to create an Obsolescence Risk Assessment Report. The report contains all the information gathered during the assessment, obsolescence risk levels as well as specific actions to be taken to mitigate potential problems. The report is a standardized method of collecting, assessing and recording obsolescence risk information, serving as a support document for the project and team members involved, and within the organization itself.
 
 ## Obsolescence Risk Assessment Report
 
@@ -71,7 +69,7 @@ A revision history of the report, including dates and a brief text explaining th
 
 #### Methodology
 
-The report must link to this implementation guide, so future revisions of it follow the same process, criteria and good practices described herein,
+The report must link to this implementation guide, so future revisions of it follow the same process, criteria and good practices described herein.
 
 When necessary, deviations from this implementation guide, additional criteria or considerations used for this particular system must be documented in this section.
 
@@ -89,17 +87,16 @@ This step in the process is intended to identify the resources available to mana
 * Tools (e.g. obsolescence monitoring tools)
 * Budget for obsolescence management
 
-As these resources are limited, the obsolescence risk assessment should enable to decide the key components for which these resources should be used to minimize the impact of obsolescence in the system’s performance and sustainment costs.
+As these resources are limited, the obsolescence risk assessment should enable to decide the key components for which these resources should be used to minimize the impact of obsolescence in the system’s performance and support costs.
 
 At this stage it is necessary to align the resources with the strategy selected to meet the contractual terms for obsolescence management.
 
 
 ### Bill of Materials Prioritization
 
-The first activity shall be to break down the system or equipment into manageable portions. The level of detail to go down to should be the lowest practical level, which is at the discretion of the Obsolescence Manager. Most obsolescence issues are being experienced at the component level.
+The first task shall be breaking down the system or equipment into manageable portions. The level of detail to go down to should be the lowest practical level, which is the lowest procured material. This could be either an electronic component, a mechanical part, or a submodule.
 
-Therefore, it is suggested that the full bill of materials (BoM) should be extracted from the system to the component level.
-
+The first step is extracting the bill of materials (BOM) of the system.
 
 #### Preliminary Filtering
 
